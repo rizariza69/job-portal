@@ -5,7 +5,7 @@
 - **Full Name:** Muhammad Riza
 - **Email:** riza.riza69@gmail.com
 - **Deployed URL:**
-- **GitHub Repository:** https://github.com/rizariza69
+- **GitHub Repository:** https://github.com/rizariza69/job-portal
 
 ---
 
