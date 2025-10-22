@@ -1,3 +1,4 @@
+import React from "react";
 import Success from "../../assets/success.png";
 const ApplySuccess = () => {
   return (
