@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserCircleIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
-import Logo from "../assets/logo.png";
+
 export default function Navbar() {
   const navigate = useNavigate();
   const user = JSON.parse(localStorage.getItem("user") || "null");
