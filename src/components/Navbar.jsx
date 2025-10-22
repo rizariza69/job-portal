@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserCircleIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
-import Logo from "../assets/logo.png";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -85,9 +84,7 @@ export default function Navbar() {
           Job List
         </Link>
       ) : (
-        <div className="flex items-center">
-          <img src={Logo} alt="Logo" className="w-10 h-10 object-contain" />
-        </div>
+        <div className="flex items-center"></div>
       )}
 
       {user && (

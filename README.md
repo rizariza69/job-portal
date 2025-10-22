@@ -4,8 +4,8 @@
 
 - **Full Name:** Muhammad Riza
 - **Email:** riza.riza69@gmail.com
-- **Deployed URL:** https://yourproject.vercel.app
-- **GitHub Repository:** https://github.com/username/hiring-platform
+- **Deployed URL:**
+- **GitHub Repository:** https://github.com/rizariza69
 
 ---
 
