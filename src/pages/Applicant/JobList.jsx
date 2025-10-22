@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { MapPinIcon, BanknotesIcon } from "@heroicons/react/24/outline";
 import EmptyState from "../../assets/empty-state.png";
-import DefaultLogo from "../../assets/logo.png";
+import Logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 
 export default function JobList() {
@@ -59,7 +59,7 @@ export default function JobList() {
               >
                 <div className="flex items-start gap-3">
                   <img
-                    src={job.logo || DefaultLogo}
+                    src={job.logo || Logo}
                     alt={job.title}
                     className="w-12 h-12 rounded-md object-cover"
                   />
@@ -92,7 +92,7 @@ export default function JobList() {
             <div className="flex justify-between items-start">
               <div className="flex items-start gap-4">
                 <img
-                  src={selectedJob.logo || DefaultLogo}
+                  src={selectedJob.logo || Logo}
                   alt={selectedJob.title}
                   className="w-12 h-12 rounded-md object-cover"
                 />
