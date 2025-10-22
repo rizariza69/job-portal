@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { MapPinIcon, BanknotesIcon } from "@heroicons/react/24/outline";
 import EmptyState from "../../assets/empty-state.png";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import { useNavigate } from "react-router-dom";
 
 export default function JobList() {

@@ -6,7 +6,7 @@ import {
   ArrowLeftIcon,
 } from "@heroicons/react/24/solid";
 import WebcamGestureCapture from "../../components/WebcamGestureCapture";
-import Dummy from "../../assets/avatar.png";
+import Dummy from "../../assets/Avatar.png";
 import DatePickerInput from "../../components/DatePickerInput";
 import DomicileSelectSearch from "../../components/DomicileSelectSearch";
 import PhoneNumberInput from "../../components/PhoneNumberInput";
